@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.TestRunner", "FubuMVC.TestRunner\FubuMVC.TestRunner.csproj", "{DD4445F4-DDB4-4116-977A-1A2366499BE2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{F7503B81-04F3-42E8-886F-F890CC0E1C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.HelloJasmine", "FubuMVC.HelloJasmine\FubuMVC.HelloJasmine.csproj", "{AE428FF2-D1B4-4B09-9BD2-1362B68C2756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.HelloJasmine.Tests", "FubuMVC.HelloJasmine.Tests\FubuMVC.HelloJasmine.Tests.csproj", "{641B42F4-037A-4CCE-8CCB-950D5E7B4A4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +19,20 @@ Global
 		{DD4445F4-DDB4-4116-977A-1A2366499BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD4445F4-DDB4-4116-977A-1A2366499BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD4445F4-DDB4-4116-977A-1A2366499BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE428FF2-D1B4-4B09-9BD2-1362B68C2756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE428FF2-D1B4-4B09-9BD2-1362B68C2756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE428FF2-D1B4-4B09-9BD2-1362B68C2756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE428FF2-D1B4-4B09-9BD2-1362B68C2756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641B42F4-037A-4CCE-8CCB-950D5E7B4A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641B42F4-037A-4CCE-8CCB-950D5E7B4A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641B42F4-037A-4CCE-8CCB-950D5E7B4A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641B42F4-037A-4CCE-8CCB-950D5E7B4A4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE428FF2-D1B4-4B09-9BD2-1362B68C2756} = {F7503B81-04F3-42E8-886F-F890CC0E1C39}
+		{641B42F4-037A-4CCE-8CCB-950D5E7B4A4F} = {F7503B81-04F3-42E8-886F-F890CC0E1C39}
 	EndGlobalSection
 EndGlobal

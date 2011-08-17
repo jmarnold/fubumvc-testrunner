@@ -1,15 +1,12 @@
 <?xml version="1.0"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Role>module</Role>
-  <Name>FubuMVC.TestRunner</Name>
-  <assembly>FubuMVC.TestRunner</assembly>
-  <assembly>FubuMVC.Spark</assembly>
-  <assembly>FubuMVC.Conventions</assembly>
-  <assembly>Spark</assembly>
+  <Name>FubuMVC.HelloJasmine.Tests</Name>
+  <assembly>FubuMVC.HelloJasmine.Tests</assembly>
   <DataFileSet Include="*.*">
     <DeepSearch>true</DeepSearch>
   </DataFileSet>
-  <ContentFileSet Include="Shared\*.spark;Shared\*.xml;Content\*.*;*.config;Suites\*.spark">
+  <ContentFileSet Include="Content\*.*;*.config">
     <DeepSearch>true</DeepSearch>
   </ContentFileSet>
 </package>
