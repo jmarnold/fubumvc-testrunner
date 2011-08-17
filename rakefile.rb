@@ -8,7 +8,7 @@ require 'rexml/document'
 include REXML
 require 'FileUtils'
 
-require "support/buildUtils.rb"
+load 'support/buildUtils.rb'
 load "VERSION.txt"
 
 ROOT_NAMESPACE = "FubuMVC.TestRunner"
