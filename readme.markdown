@@ -1,13 +1,11 @@
-= What is FubuMVC.TestRunner?
-
+What is FubuMVC.TestRunner?
+--
 This is a Fubu Bottle that provides you with a reusable route for running Jasmine suites. The idea is to minimize repetition when wiring up the testrunner for Jasmine and to provide a way to separate out your tests from your core code. 
 
-= Usage
-
+Usage
+--
 The TestRunner works by leveraging FubuMVC's ScriptManager. So the route: _/testing/suites/sample_ will run baseline Jasmine test runner code against whatever exists in the _sample_ script (which can be a file or ordered set).
 For further examples, checkout the example project within the solution.
-
-= Building locally
 
 Where is CommonAssemblyInfo.cs?
 --
