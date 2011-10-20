@@ -1,5 +1,4 @@
-﻿using FubuMVC.Conventions;
-using FubuMVC.Core;
+﻿using FubuMVC.Core;
 using FubuMVC.Spark;
 
 namespace FubuMVC.TestRunner
@@ -9,7 +8,7 @@ namespace FubuMVC.TestRunner
         public TestRunnerRegistry()
             : base("testing")
         {
-            this.ApplyHandlerConventions<TestRunnerRegistry>();
+            ApplyHandlerConventions<TestRunnerRegistry>();
             this.UseSpark();
             Views.TryToAttachWithDefaultConventions();
         }

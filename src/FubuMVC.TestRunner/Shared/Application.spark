@@ -8,6 +8,7 @@
 	<Script src="fubumvc-testrunner" />
 	<use content="scripts"/>
 	<Scripts />
+	<Styles />
 	<script type="text/javascript">
         (function() {
             var jasmineEnv = jasmine.getEnv();
